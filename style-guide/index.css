@@ -54,6 +54,20 @@ section::after {
   display: table;
   clear: both;
 }
+.logo img {
+  border: 3px solid #00454E;
+  border-radius: 10px;
+}
+
+.logo-b1 {
+  width: 40%;
+  height: 40%;
+}
+
+.logo-b2 {
+  width: 54%;
+  height: 54%;
+}
 
 .farve {
   display: flex;
