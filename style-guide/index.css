@@ -42,3 +42,15 @@ li a {
 li {
   padding: 2%;
 }
+
+article {
+  margin-left: 28%; /* Same as the width of the sidenav */
+  font-size: 18px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
