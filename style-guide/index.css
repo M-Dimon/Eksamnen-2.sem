@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background-color: #;
+  background-color: #214e32;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -15,7 +15,7 @@ header {
 }
 
 nav {
-  background-color: #;
+  background-color: #9ab87a;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -53,4 +53,67 @@ section::after {
   content: "";
   display: table;
   clear: both;
+}
+
+.farve {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color-1 {
+  background-color: #324376;
+  color: #EAEAEA;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 25px;
+  text-align: center;
+  width: 19%;
+}
+
+.color-2 {
+  background-color: #9ab87a;
+  color: #EAEAEA;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 25px;
+  text-align: center;
+  width: 19%;
+}
+
+.color-3 {
+  background-color: #214e34;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 25px;
+  text-align: center;
+  width: 19%;
+}
+
+.color-4 {
+  background-color: #ffa62b;
+  border: 5px solid black;
+  color: #EAEAEA;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 25px;
+  text-align: center;
+  width: 19%;
+}
+
+.color-5 {
+  background-color: #dc851f;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  font-size: 25px;
+  text-align: center;
+  width: 19%;
 }
