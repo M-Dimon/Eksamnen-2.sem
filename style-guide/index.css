@@ -59,14 +59,14 @@ section::after {
   border-radius: 10px;
 }
 
-.logo-b1 {
-  width: 40%;
-  height: 40%;
+.logo-stor {
+  width: 45%;
+  height: 45%;
 }
 
-.logo-b2 {
-  width: 54%;
-  height: 54%;
+.logo-lille {
+  width: 45%;
+  height: 45%;
 }
 
 .farve {
