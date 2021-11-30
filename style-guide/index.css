@@ -88,7 +88,6 @@ section::after {
 
 .color-2 {
   background-color: #9ab87a;
-  color: #EAEAEA;
   border: 5px solid black;
   border-radius: 10px;
   padding: 20px;
@@ -101,6 +100,7 @@ section::after {
 .color-3 {
   background-color: #214e34;
   border: 5px solid black;
+  color: #EAEAEA;
   border-radius: 10px;
   padding: 20px;
   margin: 5px;
@@ -112,7 +112,6 @@ section::after {
 .color-4 {
   background-color: #ffa62b;
   border: 5px solid black;
-  color: #EAEAEA;
   border-radius: 10px;
   padding: 20px;
   margin: 5px;
@@ -190,4 +189,101 @@ section::after {
   .ikon4 {
     background: #DC851F;
     color: white;
+  }
+
+  .typografi {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+  }
+  .font-t1 {
+    border: 3px solid #00454E;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    width: 15%;
+  }
+
+  .font-t2 {
+    border: 3px solid #00454E;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 15%;
+  }
+
+  .font-t3 {
+    border: 3px solid #00454E;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 15%;
+  }
+  .font-s1 {
+    border: 3px solid #00454E;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 15%;
+  }
+
+  .font-s2 {
+    border: 3px solid #00454E;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 15%;
+  }
+  .font-s3 {
+    border: 3px solid #00454E;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 15%;
+  }
+
+  .font-1 {
+    border: 3px solid #00454E;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+    width: 60%;
+  }
+
+  .font-2 {
+    border: 3px solid #00454E;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+    width: 60%;
+  }
+
+  .font-3 {
+    border: 3px solid #00454E;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+    width: 60%;
   }
