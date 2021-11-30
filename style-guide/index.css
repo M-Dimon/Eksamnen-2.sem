@@ -4,6 +4,7 @@
 
 body {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -178,6 +179,18 @@ section::after {
   margin: 8px;
 }
 
+.profil-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.profil {
+  padding: 10px;
+  margin: 10px;
+}
+
 .button {
   border-radius: 30px;
   color: #EAEAEA;
@@ -251,7 +264,7 @@ section::after {
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     width: 15%;
   }
@@ -270,7 +283,7 @@ section::after {
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     width: 15%;
   }
@@ -280,9 +293,9 @@ section::after {
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     width: 60%;
   }
 
@@ -293,7 +306,7 @@ section::after {
     padding: 10px;
     font-size: 30px;
     text-align: center;
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     width: 60%;
   }
 
@@ -302,8 +315,8 @@ section::after {
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     width: 60%;
   }
