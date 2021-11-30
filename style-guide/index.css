@@ -320,3 +320,36 @@ section::after {
     font-family: Arial, Helvetica, sans-serif;
     width: 60%;
   }
+
+  .nav {
+    overflow: hidden;
+    background-color: #214E34;
+    padding: 20px 10px;
+    color: white;
+  }
+
+  .nav img {
+    float: left;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+  }
+  .nav h1 {
+    float: left;
+    font-size: 30px;
+  }
+
+  .nav-højre {
+    float: right;
+    padding: 10px;
+    margin: 30px;
+  }
+
+  .nav-højre a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
