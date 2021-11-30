@@ -147,7 +147,7 @@ section::after {
 }
 
 .button {
-  border-radius: 10px;
+  border-radius: 30px;
   color: #EAEAEA;
   padding: 15px 32px;
   text-align: center;
@@ -157,10 +157,27 @@ section::after {
   margin: 4px 2px;
   cursor: pointer;
 }
-  .b1 {background-color: #9AB87A; border: 3px solid #; color: #;}
-  .b2 {background-color: #214E34;border: 3px solid #; color: #;}
-  .b3 {background-color: #FFA62B; border: 3px solid #; color: #;}
-  .b4 {background-color: #DC851F; border: 3px solid #; color: #;}
+  .b1 {background-color: #9AB87A; border: 3px solid #9AB87A; color: #;}
+  .b2 {background-color: #214E34;border: 3px solid #214E34; color: #;}
+  .b3 {background-color: #FFA62B; border: 3px solid #FFA62B; color: #;}
+  .b4 {background-color: #DC851F; border: 3px solid #DC851F; color: #;}
+
+.sbutton {
+  border-radius: 15px;
+  color: #EAEAEA;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+  .b5 {background-color: #999999; border: 3px solid #999999; color: #;}
+  .b6 {background-color: #808080;border: 3px solid #808080; color: #;}
+  .b7 {background-color: #616161; border: 3px solid #616161; color: #;}
+  .b8 {background-color: #464646; border: 3px solid #464646; color: #;}
 
   .typografi {
     display: flex;
