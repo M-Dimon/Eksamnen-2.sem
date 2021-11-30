@@ -131,6 +131,21 @@ section::after {
   width: 19%;
 }
 
+.ikon-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.facebook {
+  padding: 10px;
+  margin: 10px;
+}
+
+.pile {
+  padding: 10px;
+  margin: 10px;
+}
+
 .button {
   border-radius: 10px;
   color: #EAEAEA;
@@ -146,50 +161,6 @@ section::after {
   .b2 {background-color: #214E34;border: 3px solid #; color: #;}
   .b3 {background-color: #FFA62B; border: 3px solid #; color: #;}
   .b4 {background-color: #DC851F; border: 3px solid #; color: #;}
-
-  .ikon {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-
-  .fa:hover {
-      opacity: 0.7;
-  }
-
-  .fa-facebook {
-    color: white;
-  }
-
-  .ikon1 {
-    background: #9AB87A;
-    color: white;
-  }
-
-  .ikon2 {
-    background: #214E34;
-    color: white;
-  }
-
-  .ikon3 {
-    background: #FFA62B;
-    color: white;
-  }
-
-  .ikon4 {
-    background: #DC851F;
-    color: white;
-  }
 
   .typografi {
     display: flex;
