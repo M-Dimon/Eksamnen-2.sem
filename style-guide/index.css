@@ -54,10 +54,7 @@ section::after {
   display: table;
   clear: both;
 }
-.logo img {
-  border: 3px solid #00454E;
-  border-radius: 10px;
-}
+
 
 .logo-stor {
   width: 45%;
