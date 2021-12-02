@@ -50,7 +50,7 @@ nav {
 }
 
 .stor-slide {
-  border: 3px solid black;
+  border: 3px solid #324376;
   height: 500px;
   width: 800px;
   padding: 10px;
@@ -61,7 +61,7 @@ nav {
 }
 
 .preview-slide {
-  border: 3px solid black;
+  border: 3px solid #324376;
   height: 200px;
   width: 300px;
   padding: 10px;
@@ -78,7 +78,7 @@ nav {
 
 .punkter {
   display: flex;
-  color: darkblue;
+  color: #324376;
   margin-top: 80px;
 }
 
@@ -100,7 +100,7 @@ nav {
 }
 
 footer {
-  background-color: #EBEBEB;
+  background-color: #324376;
   height: 300px;
   text-align: center;
   margin: 20px;
