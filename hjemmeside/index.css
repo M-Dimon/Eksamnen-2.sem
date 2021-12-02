@@ -35,29 +35,39 @@ nav {
   padding-right: 10px;
 }
 
-.slideshow {display: none}
+.header {
+  display: flex;
+}
+
+.slideshow {display: block}
 img {vertical-align: middle;}
 
 .header-container {
-  max-width: 1000px;
-  right: 15%;
-  height: 800px;
+  max-width: 800px;
+  left: 10%;
+  height: 500px;
   position: relative;
-  margin: auto;
+  float: left;
+}
+
+.slideshow img {
+  width: 100%;
+  height: 500px;
 }
 
 .prev, .next {
-  cursor: pointer;
   position: absolute;
   top: 0;
   height: 100%;
   width: auto;
   padding: 16px;
   color: black;
-  font-weight: bold;
-  font-size: 50px;
   transition: 0.6s ease;
   user-select: none;
+}
+
+.prev img, .next img {
+  margin-top: 200px;
 }
 
 .next {
@@ -88,4 +98,43 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+.mini-container {
+  max-width: 400px;
+  right: 10%;
+  height: 300px;
+  position: relative;
+  float: right;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.minislide img {
+  width: 100%;
+  height: 300px;
+}
+
+.prev2, .next2 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: auto;
+  padding: 16px;
+  color: black;
+  transition: 0.6s ease;
+  user-select: none;
+}
+
+.prev2 img, .next2 img {
+  margin-top: 100px;
+}
+
+.next2 {
+  right: 0;
+}
+
+.prev2:hover, .next2:hover {
+  background-color: rgba(0,0,0,0.8);
 }
