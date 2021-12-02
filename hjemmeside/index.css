@@ -44,121 +44,57 @@ nav {
   color: white;
 }
 
-.header {
-  position:  fixed;
-  display: flex;
-  height: auto;
+.container {
+  height: 600px;
+  width: auto;
 }
 
-.slideshow {display: none;}
-img {vertical-align: middle;}
-
-.header-container {
-  max-width: 1000px;
-  left: 10%;
+.stor-slide {
+  border: 3px solid black;
   height: 500px;
-  position: relative;
+  width: 800px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   float: left;
+  margin-left: 17%;
 }
 
-.slideshow img {
-  width: 100%;
-  height: 500px;
-}
-
-.prev, .next {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: auto;
-  padding: 16px;
-  color: black;
-  transition: 0.6s ease;
-  user-select: none;
-}
-
-.prev img, .next img {
-  margin-top: 200px;
-}
-
-.next {
-  right: 0;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-
-.mini-container {
-  max-width: 400px;
-  right: 10%;
-  height: 300px;
-  position: flex;
+.preview-slide {
+  border: 3px solid black;
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  margin-top: 40px;
   float: right;
-  display: flex;
-  flex-direction: row;
+  margin-right: 17%;
 }
 
-.minislide img {
-  width: 100%;
-  height: 300px;
-}
-
-.prev2, .next2 {
-  position: flex;
-  top: 0;
-  height: auto;
+.negative-space {
+  height: 80px;
   width: auto;
-  padding: 16px;
-  color: black;
-  transition: 0.6s ease;
-  user-select: none;
+
 }
 
-.prev2 img, .next2 img {
-  margin-top: 100px;
+.punkter {
+  display: flex;
+  color: darkblue;
+  margin-top: 80px;
 }
 
-.next2 {
-  top: 0;
+.tekst {
+  float: left;
+  margin-left: 17%;
+  margin-top: 10%;
 }
 
-.prev2 {
-  bottom: 0;
+.billed {
+  float: right;
+  margin-left: 17%;
+  justify-content: center;
 }
 
-.prev2:hover, .next2:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.værdier {
-  width: 80%
-  height: auto;
-}
-
-.samtale {
-  width: 80%;
-  height: auto;
+.billed img {
+  height: 500px;
+  width: auto;
 }
