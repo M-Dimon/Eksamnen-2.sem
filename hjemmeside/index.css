@@ -98,3 +98,11 @@ nav {
   height: 500px;
   width: auto;
 }
+
+footer {
+  background-color: #EBEBEB;
+  height: 300px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
