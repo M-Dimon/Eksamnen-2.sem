@@ -14,7 +14,6 @@ nav {
   overflow: hidden;
   background-color: #324376;
   color: white;
-  border: 3px solid black;
 }
 
 .nav-left h1 {
@@ -47,6 +46,7 @@ nav {
 .container {
   height: 600px;
   width: auto;
+  background-color: #EBEBEB;
 }
 
 .stor-slide {

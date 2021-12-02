@@ -1,3 +1,47 @@
 .header-boks {
   background-color: #EBEBEB;
+  color: #324376;
+  width: auto;
+  height: 600px;
+  }
+
+.header-boks h1 {
+  text-align: center;
+}
+
+.information {
+  display: flex;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+.bestyrrelse {
+  display: flex;
+  color: #324376;
+  padding: 50px;
+  text-align: center;
+}
+
+.medlem img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.om-os-underfaner {
+  display: flex;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.underfane {
+  color: #324376;
+  padding: 50px;
+  text-align: center;
+}
+
+.fane img {
+  width: 450px;
+  height: 300px;
+  border-radius: 50%;
 }
