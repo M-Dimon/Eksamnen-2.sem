@@ -36,14 +36,16 @@ nav {
 }
 
 .header {
+  position:  absolute;
   display: flex;
+  height: auto;
 }
 
-.slideshow {display: block}
+.slideshow {display: none;}
 img {vertical-align: middle;}
 
 .header-container {
-  max-width: 800px;
+  max-width: 1000px;
   left: 10%;
   height: 500px;
   position: relative;
@@ -104,11 +106,10 @@ img {vertical-align: middle;}
   max-width: 400px;
   right: 10%;
   height: 300px;
-  position: relative;
+  position: flex;
   float: right;
   display: flex;
-  flex-direction: column;
-
+  flex-direction: row;
 }
 
 .minislide img {
@@ -117,9 +118,9 @@ img {vertical-align: middle;}
 }
 
 .prev2, .next2 {
-  position: absolute;
+  position: flex;
   top: 0;
-  height: 100%;
+  height: auto;
   width: auto;
   padding: 16px;
   color: black;
@@ -132,9 +133,24 @@ img {vertical-align: middle;}
 }
 
 .next2 {
-  right: 0;
+  top: 0;
+}
+
+.prev2 {
+  bottom: 0;
 }
 
 .prev2:hover, .next2:hover {
   background-color: rgba(0,0,0,0.8);
+}
+
+.section {
+  position: absolute;
+}
+
+.samtale {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: auto;
 }
