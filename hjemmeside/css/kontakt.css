@@ -1,0 +1,58 @@
+.header-boks {
+  background-color: #EBEBEB;
+  color: #324376;
+  width: auto;
+  height: 600px;
+  }
+
+.header-boks h1 {
+  text-align: center;
+}
+
+.overlay-billed {
+  margin-top: -150px;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.overlay {
+  display: flex;
+  padding: 10%;
+  text-align: center;
+}
+
+.b img {
+  width: 200px;
+  height: 150px;
+}
+
+.personer {
+  text-align:  center;
+  display: flex;
+  color: #324376;
+  margin-top: 80px;
+  padding: 20px;
+}
+
+.info {
+  float: left;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.info img {
+  width: 30px;
+  height: 30px;
+}
+
+.profil-billed {
+  margin-left: 25%;
+  justify-content: center;
+}
+
+.profil-billed img {
+  height: 300px;
+  width: auto;
+}
