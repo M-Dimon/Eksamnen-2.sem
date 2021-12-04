@@ -1,3 +1,15 @@
+.header-boks {
+  background-color: #EBEBEB;
+  color: #324376;
+  width: auto;
+  height: 600px;
+  }
+
+.header-boks h1 {
+  padding: 250px 0;
+  text-align: center;
+}
+
 .program-tabs {
   height: 800px;
   width: auto;
