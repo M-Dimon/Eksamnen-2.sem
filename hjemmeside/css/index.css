@@ -16,16 +16,28 @@ nav {
   color: white;
 }
 
-.nav-left h1 {
+.nav-left {
+  display: flex;
   float: left;
+}
+
+.nav-left h1 {
+  float: none;
+  transform: translate(-50%, -50%);
+   position: absolute;
+  left: 50%;
   font-size: 40px;
   display: flex;
 }
 
+.nav-left img {
+  height: 60px;
+  width: auto;
+  padding: 10px;
+}
+
 .logo {
   float: left;
-  height: 6%;
-  width: 6%;
 }
 
 .nav-right {
