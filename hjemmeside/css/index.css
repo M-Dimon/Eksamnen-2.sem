@@ -56,30 +56,85 @@ nav {
 }
 
 .container {
-  height: 600px;
-  width: auto;
-  background-color: #EBEBEB;
+  top: 30px;
+  width: 1600px;
+  position: relative;
+  display: flex;
+  left: 20%;
 }
 
 .stor-slide {
-  border: 3px solid #324376;
-  height: 500px;
-  width: 800px;
-  padding: 10px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  float: left;
-  margin-left: 17%;
+  border: 2px solid #707070;
+  border-radius: 10px;
+  height: 600px;
+  width: 1000px;
+  text-align: center;
 }
 
-.preview-slide {
-  border: 3px solid #324376;
-  height: 200px;
-  width: 300px;
-  padding: 10px;
-  margin-top: 40px;
-  float: right;
-  margin-right: 17%;
+.sslide{
+  display: none;
+}
+
+.sslide img {
+  min-width: 350px;
+  min-height: 200px;
+  max-width: 1000px;
+  max-height: 600px;
+}
+
+.forrige,
+.næste {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.næste {
+  right: 37%;
+  border-radius: 3px 0 0 3px;
+}
+
+.forrige:hover,
+.næste:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.række {
+  margin-left: 30px;
+  border: 3px solid #707070;
+  border-radius: 10px;
+  display: flex;
+    flex-direction: column;
+  }
+
+.række:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.kolonne {
+  display:flex;
+  float: left;
+  width: 200px;
+  height: 100px;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }
 
 .negative-space {
