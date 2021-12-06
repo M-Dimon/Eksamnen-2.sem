@@ -53,12 +53,27 @@
       </div>
     </header>
     <section>
-      <div class="negative-space"></div>
+      <div class="negative-space"> <img src="../../style-guide/IMG/PROFIL/Group 572.png" alt=""> </div>
+      <div class="medlem-info">
+        <div class="bliv-medlem-knap">
+          <h1>Bliv medlem</h1>
+        </div>
+        <div class="medlem-info-boks">
+          <p><b>Ønsker du at blive medlem af Odense Højskoleforening.</b></p>
+          <p>Indmeldelse kan ske ved mæderne eller til kassereren.</p>
+          <br>
+          <p>Årskontigentet er <span style="color: #FFA62B">200,-</span> pr.person, og medlemskab giver fri adgang til almindelige foredragsaftner. </p>
+          <br>
+          <p>Ikke-medlemmer betaler <span style="color: #FFA62B">50,-</span> for en foredragsaften.</p>
+          <br>
+          <p>Normalt er der fælles kaffebord til <span style="color: #FFA62B">30,-</span> pr.person.</p>
+        </div>
+      </div>
       <div class="værdier">
         <div class="punkter">
           <div class="tekst">
             <h1><b>Samtale & Debat</b></h1>
-            <p>Vi giver plads til at <span style="color: orange">debattere.</span><br>Ikke mindst at give pladt, og skabe fællesskab.</p>
+            <p>Vi giver plads til at <span style="color: #FFA62B">debattere.</span><br>Ikke mindst at give pladt, og skabe fællesskab.</p>
           </div>
           <div class="billed">
             <img src="../../style-guide/IMG/PROFIL/samtale.png" alt="">
@@ -70,13 +85,13 @@
           </div>
           <div class="tekst">
             <h1><b>Sang & Glæde</b></h1>
-            <p>Vi sætter stor pris på at skabe et trygt miljø ved brug af <span style="color: orange">stemmen.</span><br>.</p>
+            <p>Vi sætter stor pris på at skabe et trygt miljø ved brug af <span style="color: #FFA62B">stemmen.</span><br>.</p>
           </div>
         </div>
         <div class="punkter">
           <div class="tekst">
-            <h1><b>Samtale & Debat</b></h1>
-            <p>Vi giver plads til at <span style="color: orange">debattere.</span><br>Ikke mindst at give pladt, og skabe fællesskab.</p>
+            <h1><b>Aktiviteter</b></h1>
+            <p>Oplevelser med hinanden er nøglen for et godt <span style="color: #FFA62B">samvær.</span><br>Udflugter, virksomhedsbesøg, og mere.</p>
           </div>
           <div class="billed">
             <img src="../../style-guide/IMG/PROFIL/samtale.png" alt="">
@@ -86,38 +101,40 @@
       <div class="negative-space"></div>
     </section>
     <footer>
-      <img src="#" alt="">
-      <h2>Odense Højskoleforening</h2>
-      <p>Copyright © Date Name. All rights reserved Odense Højskoleforening.</p>
+      <img src="../../style-guide/icon-hvid.png" alt="">
+      <div class="foot-kolonne">
+        <div class="foot-række">
+          <h1>Nyheder</h1>
+          <p>Intet nyt aktuelt.</p>
+        </div>
+        <div class="foot-række-kontakt">
+          <h1>Bestyrelse og kontakt info</h1>
+          <p><b>Formand:</b></p>
+          <pre>Jens Rahbek Nørgård  formand@oh-odense.dk      2482 1453</pre>
+          <p><b>Næstformand:</b></p>
+          <pre>Søren Ole Petersen   n-formand@oh-odense.dk    2482 1453</pre>
+          <p><b>Kasserer:</b></p>
+          <pre>Erna Overgaard       kasserer@oh-odense.dk     6160 5407</pre>
+          <p><b>Sekretær:</b></p>
+          <pre>Anne-Grethe Elkjær                             6160 5407</pre>
+          <br>
+          <pre>Claus Chr. Koch                                3085 7790</pre>
+          <pre>Lars Scheide                                   3085 7790</pre>
+          <pre>Helen Jensen                                   3085 7790</pre>
+          <pre>Marianne Lundsgaard                            3085 7790</pre>
+          <pre>Helen Dyrst                                    3085 7790</pre>
+        </div>
+        <div class="foot-række">
+          <h1>Bliv Medlem</h1>
+          <br>
+          <h2>Følg os</h2>
+          <img src="../../style-guide/IMG/IKON/Facebook-sort.png" alt="">
+          <img src="../../style-guide/IMG/IKON/mail-sort.png" alt="">
+        </div>
+      </div>
+      <br>
+      <br>
     </footer>
-    <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("sslide");
-      var dots = document.getElementsByClassName("demo");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      captionText.innerHTML = dots[slideIndex-1].alt;
-    }
-    </script>
+    <script src="../JS/slideshow.js" charset="utf-8"></script>
   </body>
 </html>

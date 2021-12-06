@@ -56,7 +56,8 @@ nav {
 }
 
 .container {
-  top: 30px;
+  top: 50px;
+  height: 700px;
   width: 1600px;
   position: relative;
   display: flex;
@@ -138,9 +139,28 @@ nav {
 }
 
 .negative-space {
-  height: 80px;
+  height: 250px;
   width: auto;
+}
 
+.negative-space img {
+  width: 1920px;
+}
+
+.bliv-medlem-knap {
+  position: relative;
+  background-color: #9AB87A;
+  color: white;
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 14%;
+  margin-top: -20px;
+  text-align: center;
+}
+
+.medlem-info-boks {
+  position: relative;
+  margin-left: 17%;
 }
 
 .punkter {
@@ -168,8 +188,36 @@ nav {
 
 footer {
   background-color: #324376;
-  height: 300px;
+  width: auto;
+  height: auto;
   text-align: center;
   margin: 20px;
   padding: 20px;
+}
+
+footer img {
+  top: 10px;
+  height: 50px;
+  width: auto;
+}
+
+.foot-kolonne {
+  display: flex;
+  text-align: left;
+  color: white;
+}
+
+.foot-række-kontakt {
+  width: 600px;
+  font-size: 20px;
+}
+
+.foot-række-kontakt h1 {
+  text-align:  center;
+}
+
+
+.foot-række {
+  margin-left: 11%;
+  margin-right: 11%;
 }
