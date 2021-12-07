@@ -6,7 +6,11 @@
   }
 
 .header-boks h1 {
-  padding: 250px 0;
+  padding-top: 250px;
+  text-align: center;
+}
+
+.header-boks h2 {
   text-align: center;
 }
 

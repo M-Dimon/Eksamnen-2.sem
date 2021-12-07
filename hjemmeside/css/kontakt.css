@@ -5,10 +5,14 @@
   width: auto;
   }
 
-.header-boks h1 {
-  padding: 250px 0;
-  text-align: center;
-}
+  .header-boks h1 {
+    padding-top: 250px;
+    text-align: center;
+  }
+
+  .header-boks h2 {
+    text-align: center;
+  }
 
 .overlay-billed {
   margin-top: -150px;
