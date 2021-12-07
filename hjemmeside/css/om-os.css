@@ -55,3 +55,64 @@
   height: 300px;
   border-radius: 50%;
 }
+
+@media only screen and (max-width: 620px) {
+  .header-boks {
+    background-color: #EBEBEB;
+    color: #324376;
+    height: 280px;
+    width: 400px;
+    background-image: url("../IMG/KLIENT/skulptur.JPG");
+    background-size: cover;
+    opacity: 100%;
+    }
+
+    .header-boks h1 {
+      padding-top: 100px;
+      text-align: center;
+      color: white;
+    }
+
+    .header-boks h2 {
+      text-align: center;
+      color: white;
+    }
+
+  .information {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .bestyrrelse {
+    display: flex;
+    color: #324376;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .medlem img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .om-os-underfaner {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .underfane {
+    color: #324376;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .fane img {
+    width: 300px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}
