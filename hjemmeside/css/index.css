@@ -55,6 +55,20 @@ nav {
   color: white;
 }
 
+.active {
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: -50px;
+  margin-top: 2px;
+}
+.active b {
+  color: black;
+  margin: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 30px;
+}
+
 .container {
   top: 50px;
   height: 700px;
@@ -77,10 +91,8 @@ nav {
 }
 
 .sslide img {
-  min-width: 350px;
-  min-height: 200px;
-  max-width: 1000px;
-  max-height: 600px;
+  width: 1000px;
+  height: 600px;
 }
 
 .forrige,
@@ -109,11 +121,11 @@ nav {
 }
 
 .række {
-  margin-left: 30px;
+  margin: 30px;
   border: 3px solid #707070;
   border-radius: 10px;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   }
 
 .række:after {
@@ -127,6 +139,10 @@ nav {
   float: left;
   width: 200px;
   height: 100px;
+}
+
+.kolonne img {
+  width: 200px;
 }
 
 .demo {
