@@ -10,6 +10,10 @@ body {
   font-size: 20px;
 }
 
+* pre {
+  font-size: 20px;
+}
+
 nav {
   overflow: hidden;
   background-color: #324376;
@@ -224,17 +228,261 @@ footer img {
   color: white;
 }
 
-.foot-række-kontakt {
+.kontakt {
   width: 600px;
   font-size: 20px;
 }
 
-.foot-række-kontakt h1 {
+.kontakt h1 {
   text-align:  center;
 }
 
 
 .foot-række {
-  margin-left: 11%;
-  margin-right: 11%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+@media only screen and (max-width: 620px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * h1 {
+    font-size: 20px;
+  }
+
+  * p {
+    font-size: 10px;
+  }
+
+  * pre {
+    font-size: 10px;
+  }
+
+
+  nav {
+    overflow: hidden;
+    background-color: #324376;
+    color: white;
+  }
+
+  .nav-left {
+    display: flex;
+    float: left;
+  }
+
+  .nav-left h1 {
+    float: none;
+    transform: translate(-50%, -50%);
+     position: absolute;
+    left: 50%;
+    font-size: 20px;
+    display: flex;
+  }
+
+  .nav-left img {
+    height: 30px;
+    width: auto;
+    padding: 5px;
+  }
+
+  .logo {
+    float: left;
+  }
+
+  .nav-right {
+    text-align: center;
+    display: flex;
+    padding: 7px;
+    margin: 5px;
+    }
+
+  .nav-right a {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .active {
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: -20px;
+    margin-top: 2px;
+  }
+  .active b {
+    color: black;
+    margin: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 15px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    top: 10px;
+    height: 280px;
+    width: 400px;
+    left: 0;
+  }
+
+  .stor-slide {
+    position: relative;
+    border: 2px solid #707070;
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+  }
+
+  .sslide{
+    display: none;
+  }
+
+  .sslide img {
+    height: 200px;
+    width: 400px;
+  }
+
+  .forrige img,
+  .næste img {
+    width: 10px;
+  }
+
+  .forrige,
+  .næste {
+    position: absolute;
+    top: 30%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .næste {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .forrige:hover,
+  .næste:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .række {
+    margin: 5px;
+    border: 3px solid #707070;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+  .række:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  .kolonne {
+    float: left;
+    width: 90px;
+    height: 40px;
+    padding: 3px;
+  }
+
+  .kolonne img {
+    width: 90px;
+    height: 40px;
+  }
+
+  .demo {
+    opacity: 0.6;
+  }
+
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .negative-space {
+    height: 60px;
+    width: auto;
+  }
+
+  .negative-space img {
+    width: 400px;
+  }
+
+  .bliv-medlem-knap {
+    position: relative;
+    background-color: #9AB87A;
+    color: white;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  .medlem-info-boks {
+    position: relative;
+    margin-left: 10%;
+  }
+
+  .punkter {
+    display: flex;
+    color: #324376;
+    margin-top: 40px;
+  }
+
+  .tekst {
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+
+  .billed {
+    float: right;
+    margin-left: 10%;
+    justify-content: center;
+  }
+
+  .billed img {
+    height: 200px;
+    width: auto;
+  }
+
+  footer {
+    background-color: #324376;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  footer img {
+    top: 10px;
+    height: 50px;
+    width: auto;
+  }
+
+  .foot-kolonne {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+  }
+
+  .kontakt h1 {
+    text-align: left;
+  }
 }
