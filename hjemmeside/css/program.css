@@ -19,8 +19,9 @@
   color: white;
 }
 
+
 .program-tabs {
-  height: 800px;
+  height: 2000px;
   width: auto;
   padding: 5px;
   margin-left: 17%;
@@ -36,12 +37,14 @@
   margin: 30px;
   border-radius: 20px;
   border: 0px;
+  font-size: 20px;
 }
 
 .gallery {
   border: 1px solid #ccc;
   float: left;
   width: 300px;
+  height: 300px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -53,8 +56,9 @@
 }
 
 .gallery img {
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 200px;
+
 }
 
 .desc {
@@ -119,11 +123,10 @@
 
   .gallery img {
     width: 100%;
-    height: 30px;
+    height: 40px;
   }
 
   .desc {
-    padding: 15px;
     text-align: center;
   }
 }
