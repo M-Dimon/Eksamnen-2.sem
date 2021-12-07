@@ -67,12 +67,12 @@
   width: auto;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 400px){
   .header-boks {
     background-color: #EBEBEB;
     color: #324376;
     height: 280px;
-    width: 400px;
+    width: 365px;
     background-image: url("../IMG/KLIENT/forsamling2.JPG");
     background-size: cover;
     opacity: 100%;
@@ -90,7 +90,7 @@
     }
 
   .overlay-billed {
-    margin-top: -30px;
+    margin-top: -20px;
     display: flex;
     margin-left: 5%;
     margin-right: 5%;

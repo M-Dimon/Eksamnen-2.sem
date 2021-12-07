@@ -143,6 +143,7 @@ nav {
   float: left;
   width: 200px;
   height: 100px;
+  margin: 10px;
 }
 
 .kolonne img {
@@ -243,7 +244,7 @@ footer img {
   margin-right: 8%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 400px) {
   body {
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -329,7 +330,7 @@ footer img {
     flex-direction: column;
     top: 10px;
     height: 280px;
-    width: 400px;
+    width: 365px;
     left: 0;
   }
 
@@ -338,7 +339,7 @@ footer img {
     border: 2px solid #707070;
     border-radius: 10px;
     height: 200px;
-    width: 400px;
+    width: 365px;
   }
 
   .sslide{
@@ -347,7 +348,7 @@ footer img {
 
   .sslide img {
     height: 200px;
-    width: 400px;
+    width: 365px;
   }
 
   .forrige img,
@@ -358,7 +359,7 @@ footer img {
   .forrige,
   .næste {
     position: absolute;
-    top: 30%;
+    top: 45%;
     width: auto;
     padding: 16px;
     margin-top: -50px;
@@ -397,13 +398,13 @@ footer img {
 
   .kolonne {
     float: left;
-    width: 90px;
+    width: 60px;
     height: 40px;
-    padding: 3px;
+    margin: 2px;
   }
 
   .kolonne img {
-    width: 90px;
+    width: 60px;
     height: 40px;
   }
 
@@ -469,8 +470,8 @@ footer img {
     width: auto;
     height: auto;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
   }
 
   footer img {

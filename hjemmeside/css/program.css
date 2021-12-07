@@ -67,12 +67,12 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 400px) {
   .header-boks {
     background-color: #EBEBEB;
     color: #324376;
     height: 280px;
-    width: 400px;
+    width: 365px;
     background-image: url("../IMG/KLIENT/maratonsang.jpg");
     background-size: cover;
     opacity: 100%;
@@ -90,7 +90,7 @@
   }
 
   .program-tabs {
-    height: 200px;
+    height: 2200px;
     width: auto;
     padding: 5px;
     margin-left: 2%;
@@ -99,7 +99,7 @@
   }
 
   .tab button {
-    width: 80px;
+    width: 60px;
     height: 30px;
     background-color: #F3F3F3;
     color: #3D3D3D;
@@ -111,12 +111,12 @@
   .gallery {
     border: 1px solid #ccc;
     float: left;
-    width: 175px;
+    width: 160px;
     height: 200px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 3px;
+    margin: 4px;
   }
 
   .gallery:hover {
@@ -124,7 +124,7 @@
   }
 
   .gallery img {
-    width: 180px;
+    width: 160px;
     height: 150px;
   }
 
