@@ -66,3 +66,73 @@
   height: 300px;
   width: auto;
 }
+
+@media only screen and (max-width: 620px) {
+  .header-boks {
+    background-color: #EBEBEB;
+    color: #324376;
+    height: 280px;
+    width: 400px;;
+    background-image: url("../IMG/KLIENT/forsamling2.JPG");
+    background-size: cover;
+    opacity: 100%;
+    }
+
+    .header-boks h1 {
+      padding-top: 100px;
+      text-align: center;
+      color: white;
+    }
+
+    .header-boks h2 {
+      text-align: center;
+      color: white;
+    }
+
+  .overlay-billed {
+    margin-top: -30px;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+  .overlay {
+    padding: 5%;
+    text-align: center;
+  }
+
+  .b img {
+    width: 80px;
+    height: 40px;
+  }
+
+  .personer {
+    text-align:  center;
+    display: flex;
+    color: #324376;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .info {
+    float: left;
+    margin-left: 15%;
+    margin-top: 0;
+  }
+
+  .info img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .profil-billed {
+    margin-left: 15%;
+    justify-content: center;
+  }
+
+  .profil-billed img {
+    height: 80px;
+    width: auto;
+  }
+}
