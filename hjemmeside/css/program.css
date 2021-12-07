@@ -3,15 +3,20 @@
   color: #324376;
   height: 600px;
   width: auto;
+  background-image: url("../IMG/KLIENT/maratonsang.jpg");
+  background-size: cover;
+  opacity: 100%;
   }
 
 .header-boks h1 {
   padding-top: 250px;
   text-align: center;
+  color: white;
 }
 
 .header-boks h2 {
   text-align: center;
+  color: white;
 }
 
 .program-tabs {
