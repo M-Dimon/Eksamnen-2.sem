@@ -204,12 +204,9 @@ section::after {
 }
   .b1 {background-color: #9AB87A; border: 3px solid #9AB87A; color: #;}
   .b2 {background-color: #214E34;border: 3px solid #214E34; color: #;}
-  .b3 {background-color: #FFA62B; border: 3px solid #FFA62B; color: #;}
-  .b4 {background-color: #DC851F; border: 3px solid #DC851F; color: #;}
 
 .sbutton {
   border-radius: 15px;
-  color: #EAEAEA;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -219,10 +216,8 @@ section::after {
   cursor: pointer;
 }
 
-  .b5 {background-color: #999999; border: 3px solid #999999; color: #;}
-  .b6 {background-color: #808080;border: 3px solid #808080; color: #;}
-  .b7 {background-color: #616161; border: 3px solid #616161; color: #;}
-  .b8 {background-color: #464646; border: 3px solid #464646; color: #;}
+  .b3 {background-color: #9AB87A; border: 3px solid #9AB87A; color: #; color: #3D3D3D;}
+  .b4 {background-color: #214E34;border: 3px solid #214E34; color: #; color: #FFFFFF;}
 
   .typografi {
     display: flex;
@@ -321,8 +316,43 @@ section::after {
     width: 60%;
   }
 
+.bubble-bokse {
+  display: flex;
+}
+
+.bubble-boks-1 {
+  background-color: #9AB87A;
+  color: #FFFFFF;
+  border-radius: 20px;
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.bubble-boks-2 {
+  background-color: #E4E4E4;
+  color: #4D4D4D;
+  border-radius: 20px;
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.bubble-boks-3 {
+  background-color: #E4E4E4;
+  color: #324376;
+  border-radius: 20px;
+  width: 400px;
+  padding: 5px;
+  margin: 5px;
+}
+
 .illu-boks img {
   width: 300px;
+}
+
+.illu-stor img {
+  width: 1000px;
 }
 
   .nav {
@@ -352,7 +382,7 @@ section::after {
     margin: 10px;
   }
 
-  .logo {
+  .logo-nav {
     float: left;
   }
 
@@ -382,5 +412,41 @@ section::after {
     margin: 12px;
     padding-left: 8px;
     padding-right: 7px;
-    font-size: 20px;
+    font-size: 15px;
+  }
+
+  .footer {
+    background-color: #324376;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .footer img {
+    top: 10px;
+    height: 50px;
+    width: auto;
+  }
+
+  .foot-kolonne {
+    display: flex;
+    text-align: left;
+    color: white;
+  }
+
+  .kontakt {
+    width: 300px;
+    font-size: 10px;
+  }
+
+  .kontakt h1 {
+    text-align:  center;
+  }
+
+
+  .foot-række {
+    margin-left: 6%;
+    margin-right: 6%;
   }
