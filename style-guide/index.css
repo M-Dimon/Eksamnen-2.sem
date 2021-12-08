@@ -426,7 +426,7 @@ section::after {
 
   .footer img {
     top: 10px;
-    height: 50px;
+    height: 40px;
     width: auto;
   }
 
@@ -441,12 +441,14 @@ section::after {
     font-size: 10px;
   }
 
+
   .kontakt h1 {
     text-align:  center;
+    font-size: 20px;
   }
 
 
   .foot-række {
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 8%;
+    margin-right: 8%;
   }
