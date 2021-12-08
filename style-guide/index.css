@@ -321,35 +321,66 @@ section::after {
     width: 60%;
   }
 
+.illu-boks img {
+  width: 300px;
+}
+
   .nav {
     overflow: hidden;
     background-color: #324376;
-    padding: 20px 10px;
     color: white;
   }
 
-  .nav img {
+  .nav-left {
+    display: flex;
     float: left;
-    height: 100px;
-    width: 100px;
-    padding: 10px;
   }
-  .nav h1 {
-    float: left;
+
+  .nav-left h1 {
+    float: none;
+    transform: translate(-50%, -50%);
+     position: absolute;
+    left: 50%;
     font-size: 30px;
+    display: flex;
   }
 
-  .nav-højre {
+  .nav-left img {
+    height: 50px;
+    width: auto;
+    padding: 8px;
+    margin: 10px;
+  }
+
+  .logo {
+    float: left;
+  }
+
+  .nav-right {
     float: right;
-    padding: 10px;
-    margin: 30px;
+    display: flex;
+    padding: 12px;
+    margin: 8px;
+    }
+
+  .nav-right a {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
   }
 
-  .nav-højre a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+  .active {
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: -40px;
+    margin-top: 2px;
+  }
+  .active b {
+    color: black;
+    margin: 12px;
+    padding-left: 8px;
+    padding-right: 7px;
     font-size: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
   }
