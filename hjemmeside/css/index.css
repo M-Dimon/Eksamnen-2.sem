@@ -512,7 +512,7 @@ footer img {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px min-width: 401px) {
   body {
     font-family: Arial, Helvetica, sans-serif;
   }
