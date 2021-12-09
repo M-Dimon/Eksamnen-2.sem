@@ -19,52 +19,69 @@
     color: white;
   }
 
-.overlay-billed {
-  margin-top: -150px;
+.bestyrrelse-information {
+  margin-top: -170px;
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 4%;
+  margin-right: 4%;
   text-align: center;
 }
 
-.overlay {
+.bestyrrelse {
   display: flex;
-  padding: 10%;
+  padding: 4%;
   text-align: center;
 }
 
-.b img {
-  width: 200px;
-  height: 150px;
-}
-
-.personer {
-  text-align:  center;
-  display: flex;
-  color: #324376;
-  margin-top: 80px;
-  padding: 20px;
-}
-
-.info {
-  float: left;
-  margin-left: 25%;
-  margin-top: 5%;
-}
-
-.info img {
-  width: 30px;
-  height: 30px;
-}
-
-.profil-billed {
-  margin-left: 25%;
-  justify-content: center;
-}
-
-.profil-billed img {
+.medlem img {
+  width: 300px;
   height: 300px;
-  width: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.kontakt-oplysninger pre {
+  font-size: 20px;
+}
+
+.kontakt-oplysninger img {
+  width: 20px;
+  height: 20px;
+  border-radius: 0;
+  margin-right: 5px;
+}
+
+.kontakt-boks {
+  width: 1000px;
+  height: 600px;
+  background-color: #FFFFFF;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 23%;
+  margin-right: 23%;
+  border: 2px solid #E4E4E4;
+  border-bottom: 5px solid  #E4E4E4;
+  border-right: 5px solid  #E4E4E4;
+}
+
+.kontakt-tekst textarea {
+  width: 960px;
+  height: 560px;
+  border-radius: 10px;
+  border: 1px solid #E4E4E4;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titel-boks {
+  position: relative;
+  background-color: #E4E4E4;
+  width: 500px;
+  height: 50px;
+  border-radius: 60px;
+  text-align:  center;
+  margin-left: 30%;
+  margin-bottom: -20px;
 }
 
 @media only screen and (max-width: 400px){
@@ -76,63 +93,93 @@
     background-image: url("../IMG/KLIENT/forsamling2.JPG");
     background-size: cover;
     opacity: 100%;
-    }
+  }
 
-    .header-boks h1 {
-      padding-top: 100px;
-      text-align: center;
-      color: white;
-    }
+  .header-boks h1 {
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+  }
 
-    .header-boks h2 {
-      text-align: center;
-      color: white;
-    }
+  .header-boks h2 {
+    text-align: center;
+    color: white;
+  }
 
-  .overlay-billed {
-    margin-top: -20px;
+  .bestyrrelse-information {
     display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -70px;
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
     text-align: center;
   }
 
-  .overlay {
-    padding: 5%;
+  .bestyrrelse {
+    display: flex;
+    padding: 4%;
     text-align: center;
   }
 
-  .b img {
-    width: 80px;
-    height: 40px;
+  .medlem img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
   }
 
-  .personer {
-    text-align:  center;
-    display: flex;
-    color: #324376;
-    margin-top: 10px;
-    padding: 10px;
+  .kontakt-oplysninger h1 {
+    font-size: 15px;
   }
 
-  .info {
-    float: left;
-    margin-left: 15%;
-    margin-top: 0;
+
+  .kontakt-oplysninger pre {
+    font-size: 10px;
   }
 
-  .info img {
+  .kontakt-oplysninger img {
     width: 10px;
     height: 10px;
+    border-radius: 0;
+    margin-right: 5px;
   }
 
-  .profil-billed {
-    margin-left: 15%;
-    justify-content: center;
+  .titel-boks {
+    position: relative;
+    background-color: #E4E4E4;
+    width: 140px;
+    height: 20px;
+    border-radius: 60px;
+    text-align:  center;
+    margin-left: 20%;
+    margin-bottom: -10px;
   }
 
-  .profil-billed img {
-    height: 80px;
-    width: auto;
+  .titel-boks h1 {
+    font-size: 15px;
   }
+
+  .kontakt-boks {
+    width: 300px;
+    height: 100px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 10%;
+    border: 1px solid #E4E4E4;
+    border-bottom: 3px solid  #E4E4E4;
+    border-right: 3px solid  #E4E4E4;
+  }
+
+  .kontakt-tekst textarea {
+    width: 260px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
 }
