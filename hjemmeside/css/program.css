@@ -222,11 +222,11 @@
   }
 
   #program-tab-events {
-    height: 2760px;
-    width: 340px;
+    height: 1400px;
+    width: 750px;
     padding: 5px;
     padding-top: 20px;
-    margin-left: 3%;
+    margin-left: 1%;
     margin-right: 18;
     text-align: center;
     background-color: #ffffff;
@@ -235,16 +235,16 @@
   }
 
   #program-tab-events h1 {
-    font-size: 20px;
+    font-size: 25px;
     color: #324376;
   }
 
   .tab {
-    margin-left: 9%;
+    margin-left: 12%;
   }
 
   .tablinks {
-    width: 80px;
+    width: 120px;
     height: 40px;
     background-color: #9AB87A;
     color: #3D3D3D;
@@ -252,7 +252,7 @@
     border-radius: 20px;
     border: 0px;
     font-size: 15px;
-    margin-bottom: -190px;
+    margin-bottom: -200px;
   }
 
   .tablinks.active {
@@ -263,7 +263,7 @@
   .gallery {
     border: 1px solid #ccc;
     float: left;
-    width: 150px;
+    width: 170px;
     height: 250px;
     display: flex;
     flex-direction: row;
@@ -271,7 +271,7 @@
     margin: 3px;
     border-radius: 10px;
     margin-left: 10px;
-    margin-top: 15px;
+    margin-top: 10px;
     text-align: center;
   }
 
@@ -280,8 +280,8 @@
   }
 
   .gallery img {
-    width: 150px;
-    height: 120px;
+    width: 170px;
+    height: 180px;
     object-fit:  cover;
     object-position: 20% 10%;
     border-top-left-radius: 10px;
@@ -289,7 +289,7 @@
   }
 
   .desc {
-    padding: 15px;
+    padding: 5px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -297,7 +297,7 @@
   }
 
   .desc p {
-    font-size: 10px;
+    font-size: 15px;
   }
 
 }
