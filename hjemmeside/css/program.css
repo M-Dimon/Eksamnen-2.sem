@@ -198,3 +198,106 @@
   }
 
 }
+
+@media only screen and (max-width: 800px) {
+  .header-boks {
+    background-color: #EBEBEB;
+    color: #324376;
+    height: 400px;
+    width: 780px;
+    background-image: url("../IMG/KLIENT/maratonsang.jpg");
+    background-size: cover;
+    opacity: 100%;
+    }
+
+  .header-boks h1 {
+    padding-top: 170px;
+    text-align: center;
+    color: white;
+  }
+
+  .header-boks h2 {
+    text-align: center;
+    color: white;
+  }
+
+  #program-tab-events {
+    height: 2760px;
+    width: 340px;
+    padding: 5px;
+    padding-top: 20px;
+    margin-left: 3%;
+    margin-right: 18;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 2px solid #E4E4E4;
+  }
+
+  #program-tab-events h1 {
+    font-size: 20px;
+    color: #324376;
+  }
+
+  .tab {
+    margin-left: 9%;
+  }
+
+  .tablinks {
+    width: 80px;
+    height: 40px;
+    background-color: #9AB87A;
+    color: #3D3D3D;
+    margin: 8px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 15px;
+    margin-bottom: -190px;
+  }
+
+  .tablinks.active {
+    background-color: #214E34;
+    color: #FFFFFF;
+  }
+
+  .gallery {
+    border: 1px solid #ccc;
+    float: left;
+    width: 150px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+
+  .gallery img {
+    width: 150px;
+    height: 120px;
+    object-fit:  cover;
+    object-position: 20% 10%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .desc {
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .desc p {
+    font-size: 10px;
+  }
+
+}
