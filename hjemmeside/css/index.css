@@ -32,7 +32,7 @@ nav {
 .nav-left h1 {
   float: none;
   transform: translate(-50%, -50%);
-   position: absolute;
+  position: absolute;
   left: 50%;
   font-size: 40px;
   display: flex;
@@ -492,6 +492,264 @@ footer img {
 
   footer img {
     top: 10px;
+    height: 50px;
+    width: auto;
+  }
+
+  .foot-kolonne {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+  }
+
+  .kontakt h1 {
+    text-align: left;
+  }
+
+  .foot-række img {
+    padding: 2px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * h1 {
+    font-size: 25px;
+  }
+
+  * h2 {
+    font-size: 20px;
+  }
+
+  * p {
+    font-size: 15px;
+  }
+
+  * pre {
+    font-size: 15px;
+  }
+
+
+  nav {
+    overflow: hidden;
+    background-color: #324376;
+    color: white;
+  }
+
+  .nav-left {
+    display: flex;
+    float: left;
+  }
+
+  .nav-left h1 {
+    float: none;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 40%;
+    font-size: 20px;
+  }
+
+  .nav-left img {
+    height: 30px;
+    width: auto;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+
+  .logo {
+    float: left;
+  }
+
+  .nav-right {
+    text-align: center;
+    display: flex;
+    padding: 8px;
+    margin: 8px;
+    }
+
+  .nav-right a {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .active {
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: -30px;
+    margin-top: 0px;
+  }
+  .active b {
+    color: black;
+    margin: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 15px;
+  }
+
+  .container {
+    display: flex;
+    top: 10px;
+    height: 320px;
+    width: 780px;
+    left: 12%;
+  }
+
+  .stor-slide {
+    position: relative;
+    border: 2px solid #707070;
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+  }
+
+  .sslide{
+    display: none;
+  }
+
+  .sslide img {
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+  }
+
+  .forrige img,
+  .næste img {
+    width: 10px;
+  }
+
+  .forrige,
+  .næste {
+    position: absolute;
+    top: 55%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .næste {
+    right: 35%;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .forrige:hover,
+  .næste:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .række {
+    margin: 5px;
+    border: 3px solid #707070;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    }
+
+  .række:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+
+  .kolonne {
+    display:flex;
+    float: left;
+    width: 100px;
+    height: 60px;
+    margin: 2px;
+  }
+
+  .kolonne img {
+    width: 100px;
+    height: 60px;
+  }
+
+  .demo {
+    opacity: 0.6;
+  }
+
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .negative-space {
+    height:120px;
+    width: auto;
+  }
+
+  .negative-space img {
+    width: 780px;
+  }
+
+  .bliv-medlem-knap {
+    position: relative;
+    background-color: #9AB87A;
+    color: white;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  .bliv-medlem-knap h1 {
+    font-size: 15px;
+  }
+
+  .medlem-info-boks {
+    position: relative;
+    margin-left: 10%;
+  }
+
+  .punkter {
+    display: flex;
+    color: #324376;
+    margin-top: 40px;
+  }
+
+  .tekst {
+    float: left;
+    margin-left: 12%;
+    margin-top: 5%;
+  }
+
+  .billed {
+    float: right;
+    margin-left: 12%;
+    justify-content: center;
+  }
+
+  .billed img {
+    height: 200px;
+    width: auto;
+  }
+
+  footer {
+    background-color: #324376;
+    width: 100;
+    height: auto;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    bottom: 0;
+  }
+
+  footer img {
+    margin-top: 10px;
+    margin-bottom: 10px;
     height: 50px;
     width: auto;
   }
