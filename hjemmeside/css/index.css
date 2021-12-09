@@ -1,5 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 * h1 {
@@ -215,6 +217,7 @@ footer {
   text-align: center;
   margin: 20px;
   padding: 20px;
+  bottom: 0;
 }
 
 footer img {
@@ -423,7 +426,7 @@ footer img {
   }
 
   .negative-space img {
-    width: 400px;
+    width: 370px;
   }
 
   .bliv-medlem-knap {
@@ -435,6 +438,10 @@ footer img {
     margin-left: 10%;
     margin-top: -20px;
     text-align: center;
+  }
+
+  .bliv-medlem-knap h1 {
+    font-size: 15px;
   }
 
   .medlem-info-boks {
@@ -450,18 +457,18 @@ footer img {
 
   .tekst {
     float: left;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: 5%;
   }
 
   .billed {
     float: right;
-    margin-left: 10%;
+    margin-left: 8%;
     justify-content: center;
   }
 
   .billed img {
-    height: 200px;
+    height: 150px;
     width: auto;
   }
 
@@ -472,6 +479,7 @@ footer img {
     text-align: center;
     margin: 5px;
     padding: 5px;
+    bottom: 0;
   }
 
   footer img {
