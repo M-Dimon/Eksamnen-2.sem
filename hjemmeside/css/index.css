@@ -100,6 +100,7 @@ nav {
 .sslide img {
   width: 1000px;
   height: 600px;
+  object-fit: cover;
 }
 
 .forrige,
@@ -248,6 +249,10 @@ footer img {
   margin-right: 8%;
 }
 
+.foot-række img {
+  padding: 5px;
+}
+
 @media only screen and (max-width: 400px) {
   body {
     font-family: Arial, Helvetica, sans-serif;
@@ -353,6 +358,7 @@ footer img {
   .sslide img {
     height: 200px;
     width: 365px;
+    object-fit: cover;
   }
 
   .forrige img,
@@ -498,5 +504,9 @@ footer img {
 
   .kontakt h1 {
     text-align: left;
+  }
+
+  .foot-række img {
+    padding: 2px;
   }
 }
