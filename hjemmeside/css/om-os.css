@@ -21,40 +21,16 @@
 
 .information {
   display: flex;
-  margin-left: 17%;
-  margin-right: 17%;
+  flex-direction:  column;
+  margin-left: 8%;
+  margin-right: 8%;
+  width:
 }
 
-.bestyrrelse {
-  display: flex;
-  color: #324376;
-  padding: 50px;
-  text-align: center;
+.information p {
+  font-size: 25px;
 }
 
-.medlem img {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-}
-
-.om-os-underfaner {
-  display: flex;
-  margin-left: 6%;
-  margin-right: 6%;
-}
-
-.underfane {
-  color: #324376;
-  padding: 50px;
-  text-align: center;
-}
-
-.fane img {
-  width: 450px;
-  height: 300px;
-  border-radius: 50%;
-}
 
 @media only screen and (max-width: 400px) {
   .header-boks {
@@ -78,41 +54,15 @@
       color: white;
     }
 
-  .information {
-    display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+    .information {
+      display: flex;
+      flex-direction:  column;
+      margin-left: 8%;
+      margin-right: 8%;
+      width:
+    }
 
-  .bestyrrelse {
-    display: flex;
-    color: #324376;
-    padding: 15px;
-    text-align: center;
-  }
-
-  .medlem img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-  }
-
-  .om-os-underfaner {
-    display: flex;
-    flex-direction: column;
-    margin-left: 6%;
-    margin-right: 6%;
-  }
-
-  .underfane {
-    color: #324376;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .fane img {
-    width: 300px;
-    height: 100px;
-    border-radius: 50%;
-  }
+    .information p {
+      font-size: 10px;
+    }
 }
