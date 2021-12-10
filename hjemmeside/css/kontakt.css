@@ -29,15 +29,19 @@
 
 .bestyrrelse {
   display: flex;
-  padding: 1vw;
+  padding: 3vw;
   text-align: center;
 }
 
 .medlem img {
-  width: 20vw;
-  height: 20vw;
+  width: 15vw;
+  height: 15vw;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.kontakt-oplysninger h1 {
+  font-size: 2vw;
 }
 
 .kontakt-oplysninger pre {
@@ -52,12 +56,12 @@
 }
 
 .kontakt-boks {
-  width: 80vw;
-  height: 60vw;
+  width: 60vw;
+  height: 40vw;
   background-color: #FFFFFF;
   text-align: center;
   border-radius: 2vw;
-  margin-left: 10vw;
+  margin-left: 20vw;
   margin-right: 10vw;
   border: 0.1vw solid #E4E4E4;
   border-bottom: 0.4vw solid  #E4E4E4;
@@ -65,8 +69,8 @@
 }
 
 .kontakt-tekst textarea {
-  width: 76vw;
-  height: 56vw;
+  width: 56vw;
+  height: 34vw;
   border-radius: 1vw;
   border: 0.1px solid #E4E4E4;
   font-size: 1vw;
@@ -76,11 +80,11 @@
 .titel-boks {
   position: relative;
   background-color: #E4E4E4;
-  width: 30vw;
+  width: 25vw;
   height: 4vw;
   border-radius: 2vw;
   text-align:  center;
-  margin-left: 20vw;
+  margin-left: 24vw;
   margin-bottom: -1vw;
 }
  /*
