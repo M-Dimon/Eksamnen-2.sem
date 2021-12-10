@@ -31,12 +31,19 @@
       </div>
     </header>
     <section>
+
+
+<!-- Tabs: Jonas.  Dette er aktiverings funktio til at man kan klikke på elementerne og de vil reagere. -->
+
       <div class="tab">
-        <button class="tablinks active" onclick="openCity(event, 'Kommende Events')">Events</button>
+        <button class="tablinks active" onclick="openCity(event, 'Kommende Events')" id="defaultOpen">Events</button>
         <button class="tablinks" onclick="openCity(event, 'Album')">Album</button>
         <button class="tablinks" onclick="openCity(event, 'Videoer')">Videoer</button>
       </div>
-      <div id="program-tab-events">
+
+<!-- Events -->
+      <div id="Kommende Events" class="tabcontent">
+        <div id="program-tab-events"> 
           <h1>Kommende Begivenheder</h1>
           <div class="Kommende Events">
             <div class="gallery">
@@ -155,6 +162,47 @@
             </div>
           </div>
         </div>
+      </div>
+
+<!-- Events -->
+
+      <div id="Album" class="tabcontent">
+        <h3>bob</h3>
+        <p>London is the capital city of England.</p>
+      </div>
+      
+      <div id="Videoer" class="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+      </div>
+
+      <!-- loop (good), if else, array, var(good) function (good), dom, (document get elemente) (good)-->
+      <script>
+
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        document.getElementById("defaultOpen").click();
+        </script>
+        
+
+
+
+
+<!-- Tabs: Jonas.  Dette er aktiverings funktio til at man kan klikke på elementerne og de vil reagere. -->
+
+
+    
       <br>
     </section>
     <footer>

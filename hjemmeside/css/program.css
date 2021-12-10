@@ -26,6 +26,7 @@
   width: 70vw;
   padding: 0.5vw;
   padding-top: 5vw;
+  display: block;
   margin-left: 17%;
   margin-right: 10%;
   text-align: center;
@@ -52,7 +53,14 @@
   border-radius: 1vw;
   border: 0px;
   font-size: 1.5vw;
-  margin-bottom: -5vw;
+  margin-bottom: -5vw; 
+}
+
+.tablinks:hover{
+
+  background-color: #537246;
+ color: white;
+
 }
 
 .tablinks.active {
@@ -82,6 +90,9 @@
 
 }
 
+
+
+
 .gallery img {
   width: 16vw;
   height: 15vw;
@@ -91,6 +102,20 @@
   border-top-right-radius: 0.4vw;
 }
 
+/* Dette er CSS */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Dette er CSS */
+
+
+
+
+
 .desc {
   padding: 0.3vw;
   text-align: center;
@@ -99,7 +124,7 @@
   font-size: 1vw;
 }
 
-/*
+
 @media only screen and (max-width: 400px) {
   .header-boks {
     background-color: #EBEBEB;
