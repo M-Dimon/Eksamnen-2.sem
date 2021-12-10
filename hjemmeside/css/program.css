@@ -1,7 +1,7 @@
 .header-boks {
   background-color: #EBEBEB;
   color: #324376;
-  height: 600px;
+  height: 40vw;
   width: auto;
   background-image: url("../IMG/KLIENT/folk.JPG");
   background-size: cover;
@@ -9,7 +9,7 @@
   }
 
 .header-boks h1 {
-  padding-top: 250px;
+  padding-top: 18vw;
   text-align: center;
   color: white;
   font-size: 3vw;
@@ -23,10 +23,10 @@
 
 
 #program-tab-events {
-  height: 2210px;
-  width: 1270px;
-  padding: 5px;
-  padding-top: 20px;
+  height: 120vw;
+  width: 70vw;
+  padding: 0.5vw;
+  padding-top: 5vw;
   margin-left: 17%;
   margin-right: 10%;
   text-align: center;
@@ -36,24 +36,24 @@
 }
 
 #program-tab-events h1 {
-  font-size: 40px;
+  font-size: 3vw;
   color: #324376;
 }
 
 .tab {
-  margin-left: 30%;
+  margin-left: 20vw;
 }
 
 .tablinks {
-  width: 200px;
-  height: 60px;
+  width: 15vw;
+  height: 5vw;
   background-color: #9AB87A;
   color: #3D3D3D;
-  margin: 30px;
-  border-radius: 20px;
+  margin: 1vw;
+  border-radius: 1vw;
   border: 0px;
-  font-size: 20px;
-  margin-bottom: -20px;
+  font-size: 1.5vw;
+  margin-bottom: -5vw;
 }
 
 .tablinks.active {
@@ -62,40 +62,40 @@
 }
 
 .gallery {
-  border: 1px solid #ccc;
+  border: 0.2vw solid #ccc;
   float: left;
-  width: 300px;
-  height: 400px;
+  width: 16vw;
+  height: 20vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 3px;
-  border-radius: 10px;
-  margin-left: 10px;
-  margin-top: 15px;
+  margin: 0.8vw;
+  border-radius: 0.5vw;
+  margin-left: 0.3vw;
+  margin-top: 1vw;
   text-align: center;
 }
 
 .gallery:hover {
-  border: 1px solid #777;
+  border: 0.5px solid #777;
 }
 
 .gallery img {
-  width: 300px;
-  height: 300px;
+  width: 16vw;
+  height: 15vw;
   object-fit:  cover;
   object-position: 20% 10%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 0.4vw;
+  border-top-right-radius: 0.4vw;
 }
 
 .desc {
-  padding: 15px;
+  padding: 0.3vw;
   text-align: center;
 }
 
 .desc p {
-  font-size: 20px;
+  font-size: 1vw;
 }
 
 @media only screen and (max-width: 400px) {
