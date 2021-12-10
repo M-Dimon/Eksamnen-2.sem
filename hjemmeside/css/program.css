@@ -3,7 +3,7 @@
   color: #324376;
   height: 600px;
   width: auto;
-  background-image: url("../IMG/KLIENT/maratonsang.jpg");
+  background-image: url("../IMG/KLIENT/folk.JPG");
   background-size: cover;
   opacity: 100%;
   }
@@ -12,11 +12,13 @@
   padding-top: 250px;
   text-align: center;
   color: white;
+  font-size: 3vw;
 }
 
 .header-boks h2 {
   text-align: center;
   color: white;
+  font-size: 2vw;
 }
 
 
