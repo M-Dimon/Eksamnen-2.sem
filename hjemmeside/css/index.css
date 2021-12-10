@@ -3,18 +3,19 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #F3F3F3;
+  margin: 0;
 }
 
 * h1 {
-  font-size: 40px;
+  font-size: 3vw;
 }
 
 * p {
-  font-size: 20px;
+  font-size: 1.6vw;
 }
 
 * pre {
-  font-size: 20px;
+  font-size: 1.6vw;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -33,15 +34,15 @@ nav {
   float: none;
   transform: translate(-50%, -50%);
   position: absolute;
-  left: 50%;
-  font-size: 40px;
+  left: 30vw;
+  font-size: 3vw;
   display: flex;
 }
 
 .nav-left img {
-  height: 60px;
+  height: 4vw;
   width: auto;
-  padding: 10px;
+  padding: 0.5vw;
 }
 
 .logo {
@@ -51,46 +52,46 @@ nav {
 .nav-right {
   float: right;
   display: flex;
-  padding: 15px;
-  margin: 10px;
+  padding: 0.5vw;
   }
 
 .nav-right a {
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 30px;
+  padding-left: 0.8vw;
+  padding-right: 0.8vw;
+  margin-top: 1vw;
+  font-size: 2vw;
   text-decoration: none;
   color: white;
 }
 
 .active {
-  background-color: white;
-  border-radius: 15px;
-  margin-bottom: -50px;
-  margin-top: 2px;
+  background-color: #F3F3F3;
+  border-radius: 1vw;
+  margin-bottom: -8vw;
+  margin-top: 1vw;
 }
 .active b {
   color: black;
-  margin: 15px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 30px;
+  margin: 1vw;
+  padding-left: 0.8vw;
+  padding-right: 0.8vw;
+  font-size: 2vw;
 }
 
 .container {
-  top: 50px;
-  height: 700px;
-  width: 1600px;
+  top: 2vw;
+  height: 36vw;
+  width: 80vw;
   position: relative;
   display: flex;
-  left: 20%;
+  left: 10vw;
 }
 
 .stor-slide {
-  border: 2px solid #707070;
-  border-radius: 10px;
-  height: 600px;
-  width: 1000px;
+  border: 0.2vw solid #707070;
+  border-radius: 0.5vw;
+  height: 32vw;
+  width: 60vw;
   text-align: center;
 }
 
@@ -99,28 +100,27 @@ nav {
 }
 
 .sslide img {
-  width: 1000px;
-  height: 600px;
+  width: 60vw;
+  height: 32vw;
   object-fit: cover;
 }
 
 .forrige,
 .næste {
   position: absolute;
-  top: 50%;
+  top: 20vw;
   width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
+  padding: 1vw;
+  margin-top: -5vw;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1vw;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
 }
 
 .næste {
-  right: 37%;
+  right: 20vw;
   border-radius: 3px 0 0 3px;
 }
 
@@ -130,9 +130,9 @@ nav {
 }
 
 .række {
-  margin: 30px;
-  border: 3px solid #707070;
-  border-radius: 10px;
+  margin: 2vw;
+  border: 0.2vw solid #707070;
+  border-radius: 0.5vw;
   display: flex;
   flex-direction: column;
   }
@@ -146,14 +146,15 @@ nav {
 .kolonne {
   display:flex;
   float: left;
-  width: 200px;
-  height: 100px;
-  margin: 10px;
+  width: 15vw;
+  height: 5vw;
+  margin: 1vw;
 }
 
 .kolonne img {
-  width: 200px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .demo {
@@ -166,50 +167,51 @@ nav {
 }
 
 .negative-space {
-  height: 250px;
+  height: 12vw;
   width: auto;
 }
 
 .negative-space img {
-  width: 1920px;
+  width: 100vw;
 }
 
 .bliv-medlem-knap {
   position: relative;
   background-color: #9AB87A;
   color: white;
-  width: 300px;
-  border-radius: 10px;
-  margin-left: 14%;
+  width: 22vw;
+  border-radius: 1vw;
+  margin-left: 14vw;
   margin-top: -20px;
   text-align: center;
 }
 
 .medlem-info-boks {
   position: relative;
-  margin-left: 17%;
+  margin-left: 15vw;
 }
 
 .punkter {
   display: flex;
   color: #324376;
-  margin-top: 80px;
+  margin-top: 10vw;
 }
 
 .tekst {
   float: left;
-  margin-left: 17%;
-  margin-top: 10%;
+  margin-left: 15vw;
+  margin-top: 6vw;
+  width: 30vw;
 }
 
 .billed {
   float: right;
-  margin-left: 17%;
+  margin-left: 15vw;
   justify-content: center;
 }
 
 .billed img {
-  height: 500px;
+  height: 25vw;
   width: auto;
 }
 
@@ -218,14 +220,13 @@ footer {
   width: auto;
   height: auto;
   text-align: center;
-  margin: 20px;
-  padding: 20px;
+  padding: 1vw;
   bottom: 0;
 }
 
 footer img {
-  top: 10px;
-  height: 50px;
+  top: 1vw;
+  height: 5vw;
   width: auto;
 }
 
@@ -236,8 +237,8 @@ footer img {
 }
 
 .kontakt {
-  width: 600px;
-  font-size: 20px;
+  width: 40vw;
+  font-size: 1vw;
 }
 
 .kontakt h1 {
@@ -246,12 +247,12 @@ footer img {
 
 
 .foot-række {
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 .foot-række img {
-  padding: 5px;
+  padding: 0.2vw;
 }
 
 @media only screen and (max-width: 400px) {
