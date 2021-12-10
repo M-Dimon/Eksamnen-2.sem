@@ -1,15 +1,14 @@
 .header-boks {
   background-color: #EBEBEB;
   color: #324376;
-  height: 40vw;
+  height: 600px;
   width: auto;
   background-image: url("../IMG/KLIENT/folk.JPG");
   background-size: cover;
-  opacity: 100%;
   }
 
 .header-boks h1 {
-  padding-top: 18vw;
+  padding-top: 250px;
   text-align: center;
   color: white;
   font-size: 3vw;
@@ -23,10 +22,10 @@
 
 
 #program-tab-events {
-  height: 120vw;
-  width: 70vw;
-  padding: 0.5vw;
-  padding-top: 5vw;
+  height: 2210px;
+  width: 1270px;
+  padding: 5px;
+  padding-top: 20px;
   margin-left: 17%;
   margin-right: 10%;
   text-align: center;
@@ -36,24 +35,24 @@
 }
 
 #program-tab-events h1 {
-  font-size: 3vw;
+  font-size: 40px;
   color: #324376;
 }
 
 .tab {
-  margin-left: 20vw;
+  margin-left: 30%;
 }
 
 .tablinks {
-  width: 15vw;
-  height: 5vw;
+  width: 200px;
+  height: 60px;
   background-color: #9AB87A;
   color: #3D3D3D;
-  margin: 1vw;
-  border-radius: 1vw;
+  margin: 30px;
+  border-radius: 20px;
   border: 0px;
-  font-size: 1.5vw;
-  margin-bottom: -5vw;
+  font-size: 20px;
+  margin-bottom: -20px;
 }
 
 .tablinks.active {
@@ -62,40 +61,43 @@
 }
 
 .gallery {
-  border: 0.2vw solid #ccc;
+  border: 1px solid #ccc;
   float: left;
-  width: 16vw;
-  height: 20vw;
+  width: 300px;
+  height: 400px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 0.8vw;
-  border-radius: 0.5vw;
-  margin-left: 0.3vw;
-  margin-top: 1vw;
+  margin: 3px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 15px;
   text-align: center;
+  opacity: 80%;
 }
 
 .gallery:hover {
-  border: 0.5px solid #777;
+  
+  opacity: 100%;
+
 }
 
 .gallery img {
-  width: 16vw;
-  height: 15vw;
+  width: 300px;
+  height: 300px;
   object-fit:  cover;
   object-position: 20% 10%;
-  border-top-left-radius: 0.4vw;
-  border-top-right-radius: 0.4vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .desc {
-  padding: 0.3vw;
+  padding: 15px;
   text-align: center;
 }
 
 .desc p {
-  font-size: 1vw;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 400px) {
