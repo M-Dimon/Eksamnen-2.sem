@@ -358,6 +358,15 @@ section::after {
   width: 1000px;
 }
 
+.kode {
+  display: flex;
+  flex-direction: row;
+}
+
+.snippets {
+  text-align: left;
+}
+
   .nav {
     overflow: hidden;
     background-color: #324376;
