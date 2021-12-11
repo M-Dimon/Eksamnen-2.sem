@@ -361,10 +361,24 @@ section::after {
 .kode {
   display: flex;
   flex-direction: row;
+  background-color:  #324376;
+  color: white;
 }
 
-.snippets {
+.snippets-2-boks {
   text-align: left;
+  overflow:  scroll;
+  margin: 10px;
+  width: 60%;
+  height: 400px;
+}
+
+.snippets-3-boks {
+  text-align: left;
+  overflow:  scroll;
+  margin: 10px;
+  width: 35%;
+  height: 400px;
 }
 
   .nav {
