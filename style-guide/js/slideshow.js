@@ -1,3 +1,4 @@
+// NOTE: Hedinn
 var slideIndex = 1;
 showSlides(slideIndex);
 
