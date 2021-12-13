@@ -89,50 +89,50 @@
 }
 
 #knap {
-  border-radius: 30px;
+  border-radius: 10vw;
   color: #EAEAEA;
-  padding: 2px 32px;
+  padding: 0.2vw 5vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 35px;
+  font-size: 2vw;
+  margin: 2vw;
   cursor: pointer;
-  background-color: #9AB87A; 
-  border: 3px solid #9AB87A; 
+  background-color: #9AB87A;
+  border: 0.3vw solid #9AB87A;
 }
 #knap h1 {
-  font-size: 16px;
+  font-size: 1vw;
 }
   .bekræft {
-    display: none; 
-    position: fixed; 
-    padding-top: 200px; 
+    display: none;
+    position: fixed;
+    padding-top: 10vw;
     left: 0;
     top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgba(0,0,0,0.6); 
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
   }
 
   .bekræft-indhold {
-    border-radius: 30px;
+    border-radius: 10vw;
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;    
+    padding: 2vw;
+    border: 0.1vw solid #888;
+    width: 80%;
   }
   .bekræft-indhold h1 {
-    font-size: 20px;
+    font-size: 2vw;
   }
 
 
   .luk {
     color: #aaaaaa;
     float: right;
-    font-size: 28px;
+    font-size: 3vw;
     font-weight: bold;
   }
 
@@ -143,107 +143,140 @@
   cursor: pointer;
 }
 
- /*
+
 @media only screen and (max-width: 400px){
-  .header-boks {
-    background-color: #EBEBEB;
-    color: #324376;
-    height: 280px;
-    width: 365px;
-    background-image: url("../IMG/KLIENT/forsamling2.JPG");
-    background-size: cover;
-    opacity: 100%;
-  }
-
-  .header-boks h1 {
-    padding-top: 100px;
-    text-align: center;
-    color: white;
-  }
-
-  .header-boks h2 {
-    text-align: center;
-    color: white;
-  }
-
   .bestyrrelse-information {
+    margin-top: -10vw;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    margin-top: -70px;
-    display: flex;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 8vw;
+    margin-right: 8vw;
     text-align: center;
   }
 
   .bestyrrelse {
     display: flex;
-    padding: 4%;
+    padding: 5vw;
     text-align: center;
   }
 
   .medlem img {
-    width: 100px;
-    height: 100px;
+    width: 20vw;
+    height: 20vw;
     object-fit: cover;
     border-radius: 50%;
   }
 
   .kontakt-oplysninger h1 {
-    font-size: 15px;
+    font-size: 3vw;
   }
 
 
   .kontakt-oplysninger pre {
-    font-size: 10px;
+    font-size: 2vw;
   }
 
   .kontakt-oplysninger img {
-    width: 10px;
-    height: 10px;
+    width: 2vw;
+    height: 2vw;
     border-radius: 0;
-    margin-right: 5px;
+    margin-right: 0.8vw;
   }
+
 
   .titel-boks {
     position: relative;
     background-color: #E4E4E4;
-    width: 140px;
-    height: 20px;
-    border-radius: 60px;
+    width: 25vw;
+    height: 4vw;
+    border-radius: 2vw;
     text-align:  center;
-    margin-left: 20%;
-    margin-bottom: -10px;
+    margin-left: 24vw;
+    margin-bottom: -1vw;
   }
 
   .titel-boks h1 {
-    font-size: 15px;
+    font-size: 2vw;
   }
 
   .kontakt-boks {
-    width: 300px;
-    height: 100px;
+    width: 60vw;
+    height: 40vw;
     background-color: #FFFFFF;
     text-align: center;
-    border-radius: 20px;
-    margin-left: 10%;
-    border: 1px solid #E4E4E4;
-    border-bottom: 3px solid  #E4E4E4;
-    border-right: 3px solid  #E4E4E4;
+    border-radius: 2vw;
+    margin-left: 20vw;
+    margin-right: 10vw;
+    border: 0.1vw solid #E4E4E4;
+    border-bottom: 0.4vw solid  #E4E4E4;
+    border-right: 0.4vw solid  #E4E4E4;
   }
 
   .kontakt-tekst textarea {
-    width: 260px;
-    height: 60px;
-    border-radius: 10px;
-    border: 1px solid #E4E4E4;
-    font-size: 10px;
+    width: 56vw;
+    height: 30vw;
+    border-radius: 1vw;
+    border: 0.1px solid #E4E4E4;
+    font-size: 1vw;
     font-family: Arial, Helvetica, sans-serif;
   }
+  #knap {
+    border-radius: 10vw;
+    color: #EAEAEA;
+    padding: 0.2vw 5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin: 2vw;
+    cursor: pointer;
+    background-color: #9AB87A;
+    border: 0.3vw solid #9AB87A;
+  }
+  #knap h1 {
+    font-size: 1vw;
+  }
+    .bekræft {
+      display: none;
+      position: fixed;
+      padding-top: 10vw;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.6);
+    }
 
+    .bekræft-indhold {
+      border-radius: 10vw;
+      background-color: #fefefe;
+      margin: auto;
+      padding: 2vw;
+      border: 0.1vw solid #888;
+      width: 80%;
+    }
+    .bekræft-indhold h1 {
+      font-size: 2vw;
+    }
+
+
+    .luk {
+      color: #aaaaaa;
+      float: right;
+      font-size: 3vw;
+      font-weight: bold;
+    }
+
+    .luk:hover,
+    .luk:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
+/*
 @media only screen and (max-width: 800px min-width: 401px){
   .header-boks {
     background-color: #EBEBEB;
