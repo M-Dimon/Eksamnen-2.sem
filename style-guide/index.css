@@ -678,7 +678,7 @@ section::after {
   }
 
   .gallery img {
-    width: 14vw;
+    width: 13vw;
     height: 13vw;
     object-fit:  cover;
     object-position: 20% 10%;
