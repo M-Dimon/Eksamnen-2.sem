@@ -23,6 +23,9 @@ header {
   font-size: 35px;
   color: white;
 }
+header p {
+  text-align: center;
+}
 
 nav {
   background-color: #9ab87a;
@@ -568,37 +571,83 @@ section::after {
   }
 
   #program-tab-events {
-    height: 2270px;
-    width: 1270px;
-    padding: 5px;
-    padding-top: 20px;
-    margin-left: 2%;
-    margin-right: 2%;
+    height: 114vw;
+    width: 58vw;
+    padding: 0.5vw;
+    padding-top: 5vw;
+    display: block;
+    margin-left: 8%;
+    margin-right: 10%;
     text-align: center;
     background-color: #ffffff;
-    border-radius: 20px;
-    border: 2px solid #E4E4E4;
+    border-radius: 1vw;
+    border: 0.2vw solid #E4E4E4;
+  }
+
+  #program-tab-album {
+    height: 93vw;
+    width: 58vw;
+    padding: 0.5vw;
+    padding-top: 5vw;
+    display: block;
+    margin-left: 8%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 1vw;
+    border: 0.2vw solid #E4E4E4;
+  }
+
+  #program-tab-video {
+    height: 40vw;
+    width: 58vw;
+    padding: 0.5vw;
+    padding-top: 5vw;
+    display: block;
+    margin-left: 8%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 1vw;
+    border: 0.2vw solid #E4E4E4;
   }
 
   #program-tab-events h1 {
-    font-size: 40px;
+    font-size: 3vw;
+    color: #324376;
+  }
+
+  #program-tab-album h1 {
+    font-size: 3vw;
+    color: #324376;
+  }
+
+  #program-tab-video h1 {
+    font-size: 3vw;
     color: #324376;
   }
 
   .tab {
-    margin-left: 2%;
+    margin-left: 2vw;
   }
 
   .tablinks {
-    width: 200px;
-    height: 60px;
+    width: 12vw;
+    height: 5vw;
     background-color: #9AB87A;
     color: #3D3D3D;
-    margin: 30px;
-    border-radius: 20px;
+    margin: 1vw;
+    border-radius: 1vw;
     border: 0px;
-    font-size: 20px;
-    margin-bottom: -20px;
+    font-size: 1.5vw;
+    margin-bottom: -5vw;
+  }
+
+  .tablinks:hover{
+
+    background-color: #537246;
+   color: white;
+
   }
 
   .tablinks.active {
@@ -607,40 +656,51 @@ section::after {
   }
 
   .gallery {
-    border: 1px solid #ccc;
+    border: 0.2vw solid #ccc;
     float: left;
-    width: 300px;
-    height: 400px;
+    width: 13.5vw;
+    height: 18vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 3px;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-top: 15px;
+    margin: 0.4vw;
+    border-radius: 0.5vw;
+    margin-left: 0.2vw;
+    margin-top: 1vw;
     text-align: center;
+    opacity: 80%;
   }
 
   .gallery:hover {
-    border: 1px solid #777;
+
+    opacity: 100%;
+
   }
 
   .gallery img {
-    width: 300px;
-    height: 300px;
+    width: 14vw;
+    height: 13vw;
     object-fit:  cover;
     object-position: 20% 10%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 0.4vw;
+    border-top-right-radius: 0.4vw;
   }
+
+  /* Dette er CSS */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  }
+
+  /* Dette er CSS */
 
   .desc {
-    padding: 15px;
+    padding: 0.3vw;
     text-align: center;
   }
-
   .desc p {
-    font-size: 20px;
+    font-size: 1vw;
   }
 
   .kontakt-boks {
