@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/kontakt.css">
+    <script type="module" src="../JS/kontakt.js" defer></script>
   </head>
   <body>
     <nav>
@@ -79,8 +80,17 @@
         <div class="kontakt-tekst">
           <textarea name="name" placeholder="skriv besked her" rows="8" cols="80"></textarea>
         </div>
+         <div id="knapper"> 
+            <button id="knap" onclick="gettekst"><h1>Send</h1></button>
+          </div> 
+          <div id="bekræft" class="bekræft">
+            <div class="bekræft-indhold">
+              <div class="luk">&times;</div>
+              <h1 id="nytekst">Din besked er send</h1>
+            </div>
       </div>
       <br> <br>
+
     </section>
     <footer>
       <img src="../IMG/IKON/2logo-white.png" alt="">

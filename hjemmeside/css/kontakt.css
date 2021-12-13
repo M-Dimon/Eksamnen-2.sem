@@ -87,6 +87,62 @@
   margin-left: 24vw;
   margin-bottom: -1vw;
 }
+
+#knap {
+  border-radius: 30px;
+  color: #EAEAEA;
+  padding: 2px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 35px;
+  cursor: pointer;
+  background-color: #9AB87A; 
+  border: 3px solid #9AB87A; 
+}
+#knap h1 {
+  font-size: 16px;
+}
+  .bekræft {
+    display: none; 
+    position: fixed; 
+    padding-top: 200px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.6); 
+  }
+
+  .bekræft-indhold {
+    border-radius: 30px;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;    
+  }
+  .bekræft-indhold h1 {
+    font-size: 20px;
+  }
+
+
+  .luk {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .luk:hover,
+  .luk:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
  /*
 @media only screen and (max-width: 400px){
   .header-boks {
