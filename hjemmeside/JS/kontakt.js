@@ -19,15 +19,15 @@ window.onclick = function(event) {
   }
 }
 
-
 var tekst = [
-  "Tillykke din besked er send",
-  "Beskeden er her med send",
-  "Din besked er nu send",
-]
+  "hej",
+  "dette er mit loop",
+  ":)",
+];
 
-function gettekst() {
-  var randomNumber = Math.floor(Math.random()*tekst.length)
-  document.getElementById('nytekst').innerHTML = tekst[randomNumber];
+
+for (let i = 0; i < tekst.length; i++) {
+  console.log(tekst[i])
+  
 }
 
