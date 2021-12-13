@@ -1,31 +1,33 @@
-// NOTE: Maria Js
+// NOTE: Maria Js 
 let slideIndex = 1;
 showSlides(slideIndex);
 
-function plusSlides(n) {
+function plusSlides(n) { // NOTE: det næste slide
   showSlides(slideIndex += n);
 }
 
-function currentSlide(n) {
+function currentSlide(n) { // NOTE: det fremviste slide
   showSlides(slideIndex = n);
 }
 
-function showSlides(n) {
+function showSlides(n) { // NOTE: Funktionen der gør skifter imellem slides
   let i;
-  let slides = document.getElementsByClassName("sslide");
-  let dots = document.getElementsByClassName("demo");
+  let slides = document.getElementsByClassName("sslide"); // NOTE: Variabel til stor slide boks
+  let dots = document.getElementsByClassName("demo"); // NOTE: Variabel til mini boks
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
+
+  // NOTE: 2 loop, der ændre hvilket billed man ser, for begge slides.
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
+
+
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
 }
-
 // NOTE: har loop, kontrolstruktur, variabler, array, object, DOM.
-// NOTE: mangler event
+// NOTE: event i html, ved "knapper" (højre og venstre markøre)
