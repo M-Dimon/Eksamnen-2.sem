@@ -95,15 +95,13 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 2vw;
+  font-size: 1vw;
   margin: 2vw;
   cursor: pointer;
   background-color: #9AB87A;
   border: 0.3vw solid #9AB87A;
 }
-#knap h1 {
-  font-size: 1vw;
-}
+
   .bekræft {
     display: none;
     position: fixed;
@@ -233,9 +231,7 @@
     background-color: #9AB87A;
     border: 0.3vw solid #9AB87A;
   }
-  #knap h1 {
-    font-size: 1vw;
-  }
+  
     .bekræft {
       display: none;
       position: fixed;
