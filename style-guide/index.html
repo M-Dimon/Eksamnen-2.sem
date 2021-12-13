@@ -894,7 +894,17 @@
             <div class="kontakt-tekst">
               <textarea name="name" placeholder="skriv besked her" rows="8" cols="80"></textarea>
             </div>
+             <div id="knapper">
+                <button id="knap" onclick="gettekst">Send</button>
+              </div>
+              <div id="bekræft" class="bekræft">
+                <div class="bekræft-indhold">
+                  <div class="luk">&times;</div>
+                  <h1 id="nytekst">Din besked er send</h1>
+                </div>
+              </div>
           </div>
+          <br>
           <div class="kode">
             <div class="snippets-3-boks">
               <h3>HTML</h3>
@@ -942,6 +952,33 @@
                   margin-left: 24vw;<br>
                   margin-bottom: -1vw;<br>
                 }<br><br>
+              </code>
+            </div>
+            <div class="snippets-3-boks">
+              <h3>JS</h3>
+              <code>
+                var bekræft = document.getElementById("bekræft");<br><br>
+                var btn = document.getElementById("knap");<br><br>
+                var luk = document.getElementsByClassName("luk")[0];<br><br>
+                btn.onclick = function() {<br>
+                  bekræft.style.display = "block";<br>
+                }<br><br>
+                luk.onclick = function() {<br>
+                  bekræft.style.display = "none";<br>
+                }<br><br>
+                window.onclick = function(event) {<br>
+                  if (event.target == bekræft) {<br>
+                    bekræft.style.display = "none";<br>
+                  }<br>
+                }<br><br>
+                var tekst = [<br>
+                  "hej",<br>
+                  "dette er mit loop",<br>
+                  ":)",<br>
+                ];<br><br>
+                for (let i = 0; i < tekst.length; i++) {<br>
+                  console.log(tekst[i])<br>
+                }<br>
               </code>
             </div>
           </div>
