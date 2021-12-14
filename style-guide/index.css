@@ -482,8 +482,8 @@ section::after {
 
   .container {
     top: 50px;
-    height: 700px;
-    width: 1600px;
+    height: 500px;
+    width: 1000px;
     position: relative;
     display: flex;
     left: 5%;
@@ -492,8 +492,8 @@ section::after {
   .stor-slide {
     border: 2px solid #707070;
     border-radius: 10px;
-    height: 600px;
-    width: 1000px;
+    height: 400px;
+    width: 800px;
     text-align: center;
   }
 
@@ -502,8 +502,8 @@ section::after {
   }
 
   .sslide img {
-    width: 1000px;
-    height: 600px;
+    width: 795px;
+    height: 395px;
     object-fit: cover;
   }
 
@@ -549,14 +549,14 @@ section::after {
   .kolonne {
     display:flex;
     float: left;
-    width: 200px;
-    height: 100px;
+    width: 120px;
+    height: 60px;
     margin: 10px;
   }
 
   .kolonne img {
-    width: 200px;
-    height: 100px;
+    width: 120px;
+    height: 60px;
   }
 
   .demo {
