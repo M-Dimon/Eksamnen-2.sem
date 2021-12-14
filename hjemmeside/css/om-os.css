@@ -31,74 +31,17 @@
   font-size: 1.6vw;
 }
 
-/*
 @media only screen and (max-width: 400px) {
-  .header-boks {
-    background-color: #EBEBEB;
-    color: #324376;
-    height: 280px;
-    width: 365px;
-    background-image: url("../IMG/KLIENT/skulptur.JPG");
-    background-size: cover;
-    opacity: 100%;
-    }
+  .information {
+    display: flex;
+    flex-direction:  column;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 3vw;
+    width: 80vw;
+  }
 
-    .header-boks h1 {
-      padding-top: 100px;
-      text-align: center;
-      color: white;
-    }
-
-    .header-boks h2 {
-      text-align: center;
-      color: white;
-    }
-
-    .information {
-      display: flex;
-      flex-direction:  column;
-      margin-left: 8%;
-      margin-right: 8%;
-      width:
-    }
-
-    .information p {
-      font-size: 10px;
-    }
+  .information p {
+    font-size: 2vw;
+  }
 }
-
-@media only screen and (max-width: 800px min-width: 401px) {
-  .header-boks {
-    background-color: #EBEBEB;
-    color: #324376;
-    height: 400px;
-    width: 780px;
-    background-image: url("../IMG/KLIENT/skulptur.JPG");
-    background-size: cover;
-    opacity: 100%;
-    }
-
-    .header-boks h1 {
-      padding-top: 170px;
-      text-align: center;
-      color: white;
-    }
-
-    .header-boks h2 {
-      text-align: center;
-      color: white;
-    }
-
-    .information {
-      display: flex;
-      flex-direction:  column;
-      margin-left: 8%;
-      margin-right: 8%;
-      width:
-    }
-
-    .information p {
-      font-size: 15px;
-    }
-}
-*/
