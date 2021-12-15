@@ -211,7 +211,10 @@ nav {
 }
 
 footer {
-  background-color: #324376;
+  background-image: url(../IMG/IKON/footer.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   width: auto;
   height: auto;
   text-align: center;
@@ -221,7 +224,7 @@ footer {
 
 footer img {
   top: 1vw;
-  height: 5vw;
+  height: 3vw;
   width: auto;
 }
 
